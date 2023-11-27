@@ -1,3 +1,9 @@
+
+# Setting
+target_url = ['https://www.youtube.com/watch?v=z_Mvr_WHEy8']
+
+
+# import
 from PIL import Image
 import matplotlib.pyplot as plt
 import numpy as np
@@ -68,7 +74,6 @@ def detect_person():
 
 
 #動画取得
-target_url = ['https://www.youtube.com/watch?v=z_Mvr_WHEy8']
 videos = get_video(target_url)
 #フレームを抽出
 dir_path = 'data/crop/'
