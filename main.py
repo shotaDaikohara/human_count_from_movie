@@ -1,6 +1,8 @@
-# Setting
+### Setting
+# YOUTUBEのURL
 target_url = ['https://www.youtube.com/watch?v=z_Mvr_WHEy8']
-
+# 人数を検出する間隔（秒）
+step_sec = 5
 
 # import
 from PIL import Image
@@ -76,7 +78,6 @@ def detect_person():
 videos = get_video(target_url)
 #フレームを抽出
 dir_path = 'data/crop/'
-step_sec = 5
 save_frame_range(videos[0], 1, "end", step_sec, dir_path, 'sample_video_img')
 # 人を検出
 l_img_path, l_people_num = detect_person()
