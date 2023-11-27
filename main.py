@@ -82,8 +82,8 @@ save_frame_range(videos[0], 1, "end", step_sec, dir_path, 'sample_video_img')
 # 人を検出
 l_img_path, l_people_num = detect_person()
 #人の数をグラフ化して保存
-left = np.array([n*step_sec for n in range(len(l_peopre_num))])
-height = np.array(l_peopre_num)
+left = np.array([n*step_sec for n in range(len(l_people_num))])
+height = np.array(l_people_num)
 plt.xlabel("Time(s)")
 plt.ylabel("person count")
 plt.plot(left, height)
