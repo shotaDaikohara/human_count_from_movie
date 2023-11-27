@@ -11,7 +11,13 @@
 
 # 環境構築
 以下インストールが必要
+<br>
+<br>
 !pip3 install ultralytics
+<br>
+<br>
 !pip3 install torch torchvision torchaudio
+<br>
+<br>
 !pip install yt-dlp
 
